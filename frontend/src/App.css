@@ -1,0 +1,41 @@
+#root {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 60px;
+}
+
+body {
+  background-color: #292b36;
+  color: #fff
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  cursor: pointer;
+  min-width: 250px;
+  border-radius: 3px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #292b36;
+  outline: transparent;
+}
+
+.connectButton {
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #2892bd;
+}
+
+.footer {
+  margin-top: 20px;
+}
