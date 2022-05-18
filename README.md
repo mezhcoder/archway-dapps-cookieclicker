@@ -5,7 +5,10 @@ This application allows you to play CookieClicker a little. It is based on worki
 
 <img width="782" alt="image" src="https://user-images.githubusercontent.com/49750349/169161479-a04c7245-edc1-4bc6-b82e-bc04e549b547.png">
 
-There are two ways to start a project. Through docker or without docker
+There are two ways to start a project. Through docker or without docker.
+
+To work correctly, set REACT_APP_CONTRACT_ADDRESS in the environment. Based on what the installation is.
+I moved the .env helper file to the frontend to make it easier to include the environment variable
 # Install without Docker
 ```bash
 git clone https://github.com/mezhcoder/archway-dapps-cookieclicker
@@ -20,6 +23,7 @@ cd archway-dapps-cookieclicker
 docker compose build
 docker compose up
 ```
+
 # Technology
 Used NodeJS. Frontend is part of React and additional libraries for working with it.
 The following libraries were used in working with Dapps:
