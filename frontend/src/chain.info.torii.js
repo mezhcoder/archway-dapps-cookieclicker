@@ -1,18 +1,18 @@
 export const ConstantineInfo = {
   // Chain-id of the Cosmos SDK chain.
-  chainId: "constantine-1",
+  chainId: "torii-1",
   // The name of the chain to be displayed to the user.
-  chainName: "Constantine Testnet",
+  chainName: "Torii Testnet",
   // RPC endpoint of the chain.
-  rpc: "https://rpc.constantine-1.archway.tech" ,
+  rpc: "https://rpc.torii-1.archway.tech" ,
   // REST endpoint of the chain.
-  rest: "https://api.constantine-1.archway.tech",
+  rest: "https://api.torii-1.archway.tech\"",
   // Staking coin information
   stakeCurrency: {
     // Coin denomination to be displayed to the user.
-    coinDenom: "CONST",
+    coinDenom: "TORII",
     // Actual denom (i.e. uatom, uscrt) used by the blockchain.
-    coinMinimalDenom: "uconst",
+    coinMinimalDenom: "utorii",
     // # of decimal points to convert minimal denomination to user-facing denomination.
     coinDecimals: 6,
     // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
@@ -49,9 +49,9 @@ export const ConstantineInfo = {
   // List of all coin/tokens used in this chain.
   currencies: [{
     // Coin denomination to be displayed to the user.
-    coinDenom: "CONST",
+    coinDenom: "TORII",
     // Actual denom (i.e. uatom, uscrt) used by the blockchain.
-    coinMinimalDenom: "uconst",
+    coinMinimalDenom: "utorii",
     // # of decimal points to convert minimal denomination to user-facing denomination.
     coinDecimals: 6,
     // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
@@ -61,9 +61,9 @@ export const ConstantineInfo = {
   // List of coin/tokens used as a fee token in this chain.
   feeCurrencies: [{
     // Coin denomination to be displayed to the user.
-    coinDenom: "CONST",
+    coinDenom: "TORII",
     // Actual denom (i.e. uatom, uscrt) used by the blockchain.
-    coinMinimalDenom: "uconst",
+    coinMinimalDenom: "utorii",
     // # of decimal points to convert minimal denomination to user-facing denomination.
     coinDecimals: 6,
     // (Optional) Keplr can show the fiat value of the coin if a coingecko id is provided.
@@ -85,6 +85,6 @@ export const ConstantineInfo = {
     average: 0.1,
     high: 0.2
   },
-  faucets: ["https://faucet.constantine-1.archway.tech"],
+  faucets: ["https://faucet.torii-1.archway.tech"],
   features: ['cosmwasm']
 };

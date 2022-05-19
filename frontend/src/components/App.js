@@ -4,7 +4,7 @@ import '../App.css';
 
 import { SigningCosmWasmClient } from "@cosmjs/cosmwasm-stargate";
 import { calculateFee, GasPrice } from "@cosmjs/stargate";
-import { ConstantineInfo } from '../chain.info.constantine';
+import { ConstantineInfo } from '../chain.info.torii';
 import Emoji from "./Emoji";
 import {getBalance} from "../utils/getBalance";
 import 'dotenv/config'

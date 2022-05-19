@@ -8,6 +8,8 @@ This application allows you to play CookieClicker a little. It is based on worki
 There are two ways to start a project. Through docker or without docker.
 
 To work correctly, set REACT_APP_CONTRACT_ADDRESS in the environment. Based on what the installation is.
+My test smart contract: archway10hv6ujwcq7cp7r88kyenww23469t8c3sfhmnpcsypq8vshxnf60snfdwjw
+Source code: https://github.com/mezhcoder/archway-cookieclicker-contracts
 I moved the .env helper file to the frontend to make it easier to include the environment variable
 # Install without Docker
 ```bash

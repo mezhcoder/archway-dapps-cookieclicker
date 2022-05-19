@@ -1,4 +1,4 @@
-import {ConstantineInfo} from '../chain.info.constantine';
+import {ConstantineInfo} from '../chain.info.torii';
 import {CosmWasmClient} from "@cosmjs/cosmwasm-stargate"
 
 const RPC = ConstantineInfo.rpc;
