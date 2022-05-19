@@ -3,7 +3,7 @@
 
 This application allows you to play CookieClicker a little. It is based on working with the Archway network and with a smart contract
 
-<img width="782" alt="image" src="https://user-images.githubusercontent.com/49750349/169161479-a04c7245-edc1-4bc6-b82e-bc04e549b547.png">
+<img width="809" alt="image" src="https://user-images.githubusercontent.com/49750349/169400684-7032fb7a-2de9-4d02-b46f-fb48d86adf6a.png">
 
 There are two ways to start a project. Through docker or without docker.
 
